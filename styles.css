@@ -1,1 +1,70 @@
 /* Write your CSS here! */
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 8px;
+    display: block;
+}
+
+header {
+    background-color: lightgray; 
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+main {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h1 {
+    color: darkgray;
+}
+
+/* Specific id for main heading */
+#mainHeading {
+    color: red;
+}
+
+/* Specific class for fun paragraphs */
+.funParagraph {
+    font-style: italic;
+    color: green;
+    margin-top: 15px;
+}
+
+/* Specific id for testP paragraph */
+#testP {
+    background-color: lightyellow; 
+    padding: 10px;
+    border-radius: 5px; /* Slightly rounded corners for visual appeal */
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+img {
+    max-width: 100%; /* Ensures images are never wider than their container */
+    height: auto; /* Maintains aspect ratio */
+}
+
+html, body {
+    height: 100%; /* Ensures the body and html take at least the full height of the viewport */
+    width: 100%; /* Prevents horizontal overflow */
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
